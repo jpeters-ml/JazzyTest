@@ -3,7 +3,7 @@ Test project showcasing issue with generating docs with Jazzy for test projects
 
 # Generating Documents
 
-First, install pods using cocoa pods: `cd JazzTest; pod install`. You then should be able to open JazzyTest.xcworkspace to verify that it compiles.
+First, install pods using cocoa pods: `cd JazzyTest; pod install`. You then should be able to open JazzyTest.xcworkspace to verify that it compiles.
 
 Then, to generate the test documents, run the `generateDocs.sh` with any of the following `all, app, ui, unit`. E.g `./generateDocs.sh app` will generate the docs for the app project.
 
