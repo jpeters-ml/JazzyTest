@@ -1,8 +1,8 @@
 PODS:
   - CoreBluetoothMock (0.18.0)
-  - MSAL (1.3.3):
-    - MSAL/app-lib (= 1.3.3)
-  - MSAL/app-lib (1.3.3)
+  - MSAL (1.4.0):
+    - MSAL/app-lib (= 1.4.0)
+  - MSAL/app-lib (1.4.0)
 
 DEPENDENCIES:
   - CoreBluetoothMock
@@ -15,7 +15,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   CoreBluetoothMock: 9de570a29520ea4b1201b8d23a228fb950d12b61
-  MSAL: 17c853c270d66c59a227dceac62f8e9080911c0f
+  MSAL: 63e26e0039aa4ff851efbf61266a21851375f506
 
 PODFILE CHECKSUM: 4d80e602f7e7a10a1c7c388a9c8e1105d1d8bc34
 
