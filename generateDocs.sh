@@ -22,7 +22,7 @@ then
       --github_url https://www.github.com/ \
       --min-acl public \
       --build-tool-arguments -workspace,JazzyTest.xcworkspace,-scheme,JazzyTest,-destination='platform=ios simulator,name=iPad (9th generation)' \
-      --modules JazzyTest \
+      --modules JazzyTest 
    if [ $? -ne 0 ]
    then
       exit $?
