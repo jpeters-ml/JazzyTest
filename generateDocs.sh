@@ -36,7 +36,7 @@ then
     --author_url https://www.micro-leads.com/ \
     --github_url https://www.github.com/ \
     --min-acl private \
-    --build-tool-arguments -workspace,JazzyTest.xcworkspace,-scheme,JazzyTest,-destination='platform=ios simulator,name=iPad (9th generation)' \
+    --build-tool-arguments -workspace,JazzyTest.xcworkspace,-scheme,JazzyTest,-destination='platform=ios simulator,name=iPad (9th generation)',build-for-testing \
     --module JazzyTestTests \
     --output docTests
    if [ $? -ne 0 ]
@@ -52,7 +52,7 @@ then
     --author_url https://www.micro-leads.com/ \
     --github_url https://www.github.com/ \
     --min-acl private \
-    --build-tool-arguments -workspace,JazzyTest.xcworkspace,-scheme,JazzyTest,-destination='platform=ios simulator,name=iPad (9th generation)' \
+    --build-tool-arguments -workspace,JazzyTest.xcworkspace,-scheme,JazzyTest,-destination='platform=ios simulator,name=iPad (9th generation)',build-for-testing \
     --module JazzyTestUITests \
     --output docUITests
    if [ $? -ne 0 ]
