@@ -40,3 +40,6 @@ Error: Failed to generate documentation
 	from /Users/user/.rbenv/versions/3.3.1/bin/jazzy:25:in `load'
 	from /Users/user/.rbenv/versions/3.3.1/bin/jazzy:25:in `<main>'
 ```
+# Resolution
+
+The underlying issue was that since the desired target was a test target, it is no longer built in the normal way. Adding `build-for-testing` caused the correct information to be generated for jazzy to complete it's task.
